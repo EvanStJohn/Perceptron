@@ -270,25 +270,3 @@ data4.append([1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0]) #2-wide left i
 label4 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0]
 
 average(100,trainingInputs4,trainingLabels4,data4,label4)
-
-"""
-trainingInputs3 = []
-trainingInputs3.append([0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0]) #standard middle i
-trainingInputs3.append([0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1]) #standard middle l
-trainingLabels3 = [0,1]
-data3 = []
-data3.append([1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0]) #standard left i
-data3.append([1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0]) #standard left l
-data3.append([0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0]) #standard mid-left i
-data3.append([0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,0]) #standard mid-left l
-data3.append([0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0]) #standard mid-right i
-data3.append([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]) #standard right i
-data3.append([1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1,1]) #full-bottom left l
-data3.append([0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1]) #full-bottom mid-left l
-data3.append([0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1]) #2-wide middle l
-data3.append([0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0]) #2-wide middle i
-data3.append([0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0]) #2-wide mid-left i
-data3.append([1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0]) #2-wide left i
-label3 = [0,1,0,1,0,0,1,1,1,0,0,0]
-average(10,trainingInputs3,trainingLabels3,data3,label3)
-"""
