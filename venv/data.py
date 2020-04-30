@@ -166,7 +166,7 @@ label3 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,
 
 average(100,trainingInputs3,trainingLabels3,data3,label3)
 
-print("test 4: 7 training inputs")
+print("test 4: 5x5 grid")
 trainingInputs4 = []
 trainingInputs4.append([0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]) #middle i
 trainingInputs4.append([0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]) #right most i
